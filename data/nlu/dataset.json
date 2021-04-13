@@ -1,0 +1,429 @@
+{
+  "entities": {
+    "discussion": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "ma famille"
+        },
+        {
+          "synonyms": [],
+          "value": "mes enfants"
+        },
+        {
+          "synonyms": [],
+          "value": "mon fils"
+        },
+        {
+          "synonyms": [],
+          "value": "ma fille"
+        },
+        {
+          "synonyms": [],
+          "value": "moi"
+        },
+        {
+          "synonyms": [],
+          "value": "mon travail"
+        },
+        {
+          "synonyms": [],
+          "value": "le monde"
+        },
+        {
+          "synonyms": [],
+          "value": "ma vie"
+        },
+        {
+          "synonyms": [],
+          "value": "une personne"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    }
+  },
+  "intents": {
+    "interlocuteurBien": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "je vais bien"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "je vais bien merci"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "j'avais bien merci"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "j'avais bien"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00e7a va"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "tr\u00e8s bien"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "je me sens bien"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00e7a va mieux"
+            }
+          ]
+        }
+      ]
+    },
+    "interlocuteurDesole": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "D\u00e9sol\u00e9 de vous emb\u00eater"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "D\u00e9sol\u00e9 de t'emb\u00eater avec mes histoires"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Je m'excuse"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Je suis d\u00e9sol\u00e9 de faire perdre votre temps"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "D\u00e9sol\u00e9 de vous d\u00e9ranger"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "D\u00e9sol\u00e9 de t'ennuyer"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "je t'ennuie avec mes probl\u00e8mes"
+            }
+          ]
+        }
+      ]
+    },
+    "interlocuteurMerci": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Merci de m'\u00e9couter"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Merci de m'\u00e9couter attentivement"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Merci de faire attention \u00e0 moi"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Merci beaucoup"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Merci de pr\u00eater une oreille"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "c'est gentil de m'\u00e9couter"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "je vous remercie"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Sympa de m'\u00e9couter"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Cela fait du bien de parler"
+            }
+          ]
+        }
+      ]
+    },
+    "interlocuteurPasBien": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "je ne vais pas bien"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00e7a ne va pas"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "pas tr\u00e8s bien"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "je ne me sens pas tr\u00e8s bien"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "cela ne va pas fort"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00e7a pourrait aller mieux"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "j'ai connu mieux"
+            }
+          ]
+        }
+      ]
+    },
+    "interlocuteurPasParler": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "je ne veux pas en parler"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "cela ne vous regarde pas"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "cela ne vous concerne pas"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "je ne suis pas pr\u00eat \u00e0 en parler"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "c'est pas vos oignons"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "c'est pas tes oignons"
+            }
+          ]
+        }
+      ]
+    },
+    "sujetDiscussion": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "c'est au sujet de "
+            },
+            {
+              "entity": "discussion",
+              "slot_name": "discussion",
+              "text": "ma famille"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "c'est \u00e0 propos de "
+            },
+            {
+              "entity": "discussion",
+              "slot_name": "discussion",
+              "text": "mes enfants"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "cela concerne "
+            },
+            {
+              "entity": "discussion",
+              "slot_name": "discussion",
+              "text": "mon fils"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "je voudrais parler de "
+            },
+            {
+              "entity": "discussion",
+              "slot_name": "discussion",
+              "text": "ma fille"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "le probl\u00e8me vient de "
+            },
+            {
+              "entity": "discussion",
+              "slot_name": "discussion",
+              "text": "moi"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "mon probl\u00e8me vient de "
+            },
+            {
+              "entity": "discussion",
+              "slot_name": "discussion",
+              "text": "mon travail"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "alors voila "
+            },
+            {
+              "entity": "discussion",
+              "slot_name": "discussion",
+              "text": "le monde"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "eh bien voila "
+            },
+            {
+              "entity": "discussion",
+              "slot_name": "discussion",
+              "text": "ma vie"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "language": "fr"
+}

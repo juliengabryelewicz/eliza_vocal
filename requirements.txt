@@ -1,0 +1,10 @@
+opencv_contrib_python==4.5.1.48
+pandas==1.2.3
+snips_nlu==0.20.2
+vosk==0.3.15
+numpy==1.19.5
+dlib==19.22.0
+librosa==0.8.0
+Kivy==2.0.0
+pyaudio==0.2.11
+scikit_learn==0.22.0

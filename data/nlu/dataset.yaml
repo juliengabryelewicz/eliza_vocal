@@ -1,0 +1,94 @@
+# interlocuteurPasBien Intent
+---
+type: intent
+name: interlocuteurPasBien
+utterances:
+  - je ne vais pas bien
+  - ça ne va pas
+  - pas très bien
+  - je ne me sens pas très bien
+  - cela ne va pas fort
+  - ça pourrait aller mieux
+  - j'ai connu mieux
+  - je ne suis pas en pleine forme
+# interlocuteurBien Intent
+---
+type: intent
+name: interlocuteurBien
+utterances:
+  - je vais bien
+  - je vais bien merci
+  - j'avais bien merci
+  - j'avais bien
+  - ça va
+  - très bien
+  - je me sens bien
+  - ça va mieux
+  - je suis en pleine forme
+# interlocuteurPasParler Intent
+---
+type: intent
+name: interlocuteurPasParler
+utterances:
+  - je ne veux pas en parler
+  - cela ne vous regarde pas
+  - cela ne vous concerne pas
+  - je ne suis pas prêt à en parler
+  - c'est pas vos oignons
+  - c'est pas tes oignons
+# interlocuteurMerci Intent
+---
+type: intent
+name: interlocuteurMerci
+utterances:
+  - Merci de m'écouter
+  - Merci de m'écouter attentivement
+  - Merci de faire attention à moi
+  - Merci beaucoup
+  - Merci de prêter une oreille
+  - c'est gentil de m'écouter
+  - je vous remercie
+  - Sympa de m'écouter
+  - Cela fait du bien de parler
+# interlocuteurDesole Intent
+---
+type: intent
+name: interlocuteurDesole
+utterances:
+  - Désolé de vous embêter
+  - Désolé de t'embêter avec mes histoires
+  - Je m'excuse
+  - Je suis désolé de faire perdre votre temps
+  - Désolé de vous déranger
+  - Désolé de t'ennuyer
+  - je t'ennuie avec mes problèmes
+# sujetDiscussion Intent
+---
+type: intent
+name: sujetDiscussion
+slots:
+  - name: discussion
+    entity: discussion
+utterances:
+  - c'est au sujet de [discussion]
+  - c'est à propos de [discussion]
+  - cela concerne [discussion]
+  - je voudrais parler de [discussion]
+  - le problème vient de [discussion]
+  - mon problème vient de [discussion]
+  - alors voila [discussion]
+  - eh bien voila [discussion]
+# discussion Entity
+---
+type: entity
+name: discussion
+values:
+  - ma famille
+  - mes enfants
+  - mon fils
+  - ma fille
+  - moi
+  - mon travail
+  - le monde
+  - ma vie
+  - une personne
