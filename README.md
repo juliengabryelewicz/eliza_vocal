@@ -35,10 +35,3 @@ python3 main.py
 ```
 
 Models are already created and loaded in the data folder.
-
-## TO DO
-
-- [ ] Add English for voice recognition and understanding
-- [ ] Improve Accuracy
-- [ ] Add better conversation
-- [ ] Find a way to use less CPU (around 45% of my processor, which is a Intel Core i7-1065G7)
